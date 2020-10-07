@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/favicon1.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <span class="span" id="span">0</span>
+        <span class="input" id="input"></span>
+
+        <button class="btn" data-operation="clear">C</button>
+        <button class="btn">±</button>
+        <button class="btn">%</button>
+        <button class="btn btn-blue" data-math="divide">÷</button>
+
+        <button class="btn" data-number="7">7</button>
+        <button class="btn" data-number="8">8</button>
+        <button class="btn" data-number="9">9</button>
+        <button class="btn btn-blue" data-math="multiply">×</button>
+
+        <button class="btn" data-number="4">4</button>
+        <button class="btn" data-number="5">5</button>
+        <button class="btn" data-number="6">6</button>
+        <button class="btn btn-blue" data-math="minus">-</button>
+
+        <button class="btn" data-number="1">1</button>
+        <button class="btn" data-number="2">2</button>
+        <button class="btn" data-number="3">3</button>
+        <button class="btn btn-blue" data-math="add">+</button>
+        
+        <button class="btn" data-number="0">0</button>
+        <button class="btn" data-number=".">.</button>  
+        <button class="btn btn-igual btn-blue" data-operation="equals">=</button>
+    </div>
+    
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
